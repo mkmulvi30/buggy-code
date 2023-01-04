@@ -1,0 +1,20 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="p@L#hFI%i*3d[y_Fcj1N" x="0" y="0"><field name="NAME">Button.A</field><comment pinned="false" h="80" w="160">This triggers code inside to run when A is pressed.</comment><statement name="HANDLER"><block type="device_while" id="%c)$dmm%U|,$Y8xD]MDT"><comment pinned="false" h="80" w="160">while loop will run and not stop because triggered by A is true</comment><value name="COND"><shadow type="logic_boolean" id=".L#A`^{G}6,a#9Q2juj%"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="device_print_message" id="%[)I@?FY!.b%-bcEovy,"><value name="text"><shadow type="text" id="ZCdp8uB}{J-f4ZOth-|c"><field name="TEXT">Hello @ 3</field></shadow></value><next><block type="device_pause" id="==U59MNFok5!K3hhs$;1"><value name="pause"><shadow type="timePicker" id="iDcOEh:;N;F]m,Gc/k7T"><field name="ms">500</field></shadow></value></block></next></block></statement></block></statement></block><block type="device_forever" id="-vF#wUJn}qyK:1Tf}8Z}" x="328" y="64"><statement name="HANDLER"><block type="device_show_leds" id="Ict!%HS`N@(#=Q;;#[x4"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="],2z6v=hEt#qA]vihf!q"><field name="LEDS">`
+        . . . # . 
+        . . . . . 
+        # . # . # 
+        . . . . . 
+        . . . # .
+        `</field><next><block type="device_show_leds" id="-6EsLI4j[cJ%#rXChP^@"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . # . # 
+        . . . . . 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block><block type="basic_show_icon" id="[3C960,+?jjw%*,~,-Ve" disabled="true" x="-82" y="342"><field name="i">IconNames.Heart</field></block><block type="device_pause" id=",bn6]_[L*3%rxcG6|EIT" disabled="true" x="872" y="472"><comment pinned="false" h="80" w="160">pause holds LEDS on then Clear screen turns them off</comment><value name="pause"><shadow type="timePicker" id="|u8KvOed;Fqc/#d52SQm" disabled="true"><field name="ms">500</field></shadow></value><next><block type="device_clear_display" id="J|`X{M|^-Oo9+|`jpQa," disabled="true"><comment pinned="false" h="80" w="160">notes
+A clear screen turns off all code visable</comment></block></next></block></xml>
